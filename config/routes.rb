@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   get "add/:x/:y" => "application#add"
   get "todo/index" , to: "todo#index"
+  get "todo/show" , to: "todo#show"
 end
