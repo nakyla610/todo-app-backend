@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+ body{color:#000080;
+background-color: aqua;
+font-family:georgia, serif;
+display: inline-block;
+}
+h1{color:#8b008b;
+border:10px dotted red;
+padding:20px;
+margin:50px;
+border-radius:30px;
+}
+img{
+    border-radius: 300px;
+    width: 200px;
+    position: absolute;
+    z-index: 100;
+}
+li{
+    border:5px solid;
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.pomodorosestimate{border-radius:10px;
+    border:10px dotted red;
+    color: blue;
+}
+.add-todo-button{
+    box-shadow: 2px 2px 1px gray;
+}
