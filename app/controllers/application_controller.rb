@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def add
-    @answer = params[:x].to_i + params[:y].to_i
-  end
+    render text: params[:x].to_i + params[:y].to_i
+end
 end
