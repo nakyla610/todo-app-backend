@@ -1,8 +1,8 @@
 <h1>my todo list</h1>
 <input type="checkbox" checked="checked">
-<h3>Todo #<%= params[:id] %></h3>
-<h2><%= @title %></h2>
-<h4><%= @size %>pomodoros</h4>
+<h3>Todo #<%= @todo_id %></h3>
+<h2><%= @todo.description %></h2>
+<h4><%= @todo.pomodoro_estimate %>pomodoros</h4>
 <a class="button">edit</a>
 <a class="buton">delete</a>
 <a href="/todo/index">go back</a>
