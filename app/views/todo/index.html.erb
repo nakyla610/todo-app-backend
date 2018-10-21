@@ -6,11 +6,10 @@
 <input type="submit" class="add-todo-button" value="add todo">
 <%@todos.each do |todo|%>
 <li>
-    <input type="checkbox"><a href="show/<%= todo.id %>"><%= todo.description%></a>
+    <input type="checkbox"><a href="/todo/show/<%= todo.id %>"><%= todo.description%></a>
     <span class="pomodoro_estimate small-pomodoro_estimate"><%=todo.pomodoro_estimate%> pomodoros </span>
     </li>
     <%end%>
 </ol>
 <img src="https://media.mnn.com/assets/images/2017/07/blue_hydrangea.jpg.653x0_q80_crop-smart.jpg" alt="Hydrangeas"/>
-
 </body>
