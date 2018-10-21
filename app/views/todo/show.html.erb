@@ -3,6 +3,6 @@
 <h3>Todo #<%= @todo_id %></h3>
 <h2><%= @todo.description %></h2>
 <h4><%= @todo.pomodoro_estimate %>pomodoros</h4>
-<a class="button">edit</a>
-<a class="buton">delete</a>
+<a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+<a href="/todo/delete/<%= @todo.id %>" class="buton delete-todo-button">Delete</a>
 <a href="/todo/index">go back</a>
